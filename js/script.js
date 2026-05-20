@@ -1,7 +1,3 @@
-/**
- * Pharmanect — Main JavaScript
- * Handles all interactivity across index, about, product, pharmacies, and contact pages.
- */
 
 'use strict';
 

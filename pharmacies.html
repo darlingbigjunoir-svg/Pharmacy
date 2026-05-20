@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+<body id="top">
+
+  <!--------Header--------- -->
+  
+<div class="top-arrow">
+    <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+</div>
+
+  <header>
+    <div class="container">
+<div class="navbar">
+  <div class="nav-logo">
+    <img src="logo.png" alt="logo" class="logo-img">
+    <span class="logo-name">Pharmanect</span>
+  </div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="product.html">Products</a>
+    <a href="pharmacies.html" class="active">Pharmacies</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <button class="btn-download">Download App</button>
+</div>
+    </div>
+  </header>
+  <!-- -------End of Header------------->
+   
+ 
+
+<!-- page title -->
+<div class="page-title">
+  <h1>Upload Prescription</h1>
+  <p>Select a pharmacy, upload your prescription and add a note. The <br> pharmacy will review and confirm your order.</p>
+</div>
+ 
+<!-- main content -->
+<div class="main-content">
+ 
+  <!-- select pharmacy -->
+  <div class="section-box">
+    <h3>Select Pharmacy</h3>
+    <p class="section-desc">Search for the pharmacy you want to send your prescription to.</p>
+    <br>
+    <div class="search-bar">
+      <i class="fa fa-search search-icon"></i>
+      <input type="text" placeholder="Search pharmacies by name or location...">
+      <button>Search</button>
+    </div>
+  </div>
+ 
+  <!-- upload prescriptions -->
+  <div class="section-box">
+    <h3>Upload Prescriptions</h3>
+    <p class="section-desc">Upload one or more prescriptions. Accepted: JPG, PNG, PDF. Max 10MB per file.</p>
+    <br>
+    <div class="upload-area">
+      <i class="fa fa-file-arrow-up upload-icon"></i>
+      <p class="upload-title">Drop your prescription here</p>
+      <p class="upload-sub">or click to browse your files</p>
+      <button class="btn-browse">Browse Files</button>
+      <p class="upload-formats">JPG, PNG, PDF</p>
+    </div>
+  </div>
+ 
+  <!-- add a note -->
+  <div class="section-box">
+    <h3>Add a Note <span class="optional">(Optinal)</span></h3>
+    <br>
+    <textarea id="noteText" class="note-textarea" placeholder="E.g. I need the exact brand on the prescription, please confirm availability...." maxlength="300" oninput="updateCount()"></textarea>
+    <p class="char-count" id="charCount">0/300</p>
+  </div>
+ 
+  <!-- submit button -->
+  <button class="btn-submit">Submit Prescription</button>
+  <p class="submit-note">The pharmacy will review and contact you once confirmed.</p>
+ 
+</div>
+ 
+  
+<!-- footer section -->
+<div class="footer">
+ 
+  <div class="footer-left">
+    <img src="logo.png" alt="logo" class="footer-logo">
+    <p class="footer-desc">Kenya's pharmacy discovery platform to find, compare, and order from verified pharmacies near you.</p>
+    <div>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+    </div>
+  </div>
+ 
+  <div class="footer-middle1">
+    <h4>For Customers</h4>
+    <br>
+    <p><a href="#">Search Medications</a></p>
+    <p><a href="#">Browse Pharmacies</a></p>
+    <p><a href="#">How it Works</a></p>
+    <p><a href="#">Download the App</a></p>
+  </div>
+ 
+  <div class="footer-middle2">
+    <h4>For Pharmacies</h4>
+    <br>
+    <p><a href="#">Register Your Pharmacy</a></p>
+    <p><a href="#">Partner Dashboard</a></p>
+    <p><a href="#">Verification Process</a></p>
+    <p><a href="contact.html">Contact Our Team</a></p>
+  </div>
+ 
+  <div class="footer-right">
+    <h4>Company</h4>
+    <br>
+    <p><a href="about.html">About Pharmanect</a></p>
+    <p><a href="#">Blog</a></p>
+    <p><a href="#">Careers</a></p>
+    <p><a href="#">Press</a></p>
+  </div>
+ 
+</div>
+ 
+<!-- bottom bar -->
+<div class="bottom-bar">
+  <p>@2026 Pharmanect. All rights reserved.</p>
+  <p><a href="#">Privacy policy</a>&nbsp;&nbsp;<a href="#">Terms of service</a></p>
+</div>
+ 
+</body>
+</html>
